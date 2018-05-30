@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial; }
+
+body {
+  background-color: lightgrey; }
+
+.Calculator__Container {
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+  background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25% 1fr;
+  position: relative; }
+
+.Result {
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  font-weigth: 200;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 16.66vh; }
+  .Result div {
+    font-size: 4.5em;
+    padding: 0 0.5em; }
+
+.ButtonContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #858694;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+  .ButtonContainer .Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1px; }
+
+.Button {
+  width: 25%;
+  height: 16.66vh;
+  border: 1px solid #858694;
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+  backgorund-color: #e0e0e0;
+  cursor: pointer;
+  font-size: 2em; }
+  .Button:hover {
+    background-color: #e0e0e0; }
+  .Button.expand {
+    width: 50%; }
+  .Button.operation {
+    background-color: #f5923e;
+    color: white;
+    font-weight: bold; }
+    .Button.operation:hover {
+      background-color: #ef7e21; }
+
+/*# sourceMappingURL=style.css.map*/

@@ -1,0 +1,13 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:Arial;
+}
+body{
+	background-color: lightgrey;
+}
+
+@import './Layout/containers/Calculator';
+@import './Result/components/Result';
+@import './Buttons/containers/ButtonContainer';
+@import './Buttons/components/Button';

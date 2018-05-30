@@ -1,0 +1,25 @@
+.Button{
+	width:25%;
+	height:16.66vh;
+	border: 1px solid #858694;
+	border-bottom:0;
+	margin:0;
+	padding:0;
+	backgorund-color:#e0e0e0;
+	cursor:pointer;
+	font-size:2em;
+	&:hover{
+		background-color: #e0e0e0;
+	}
+	&.expand{
+		width:50%;
+	}
+	&.operation{
+		background-color:#f5923e;
+		color:white;
+		font-weight:bold;
+		&:hover{
+			background-color: #ef7e21;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.ButtonContainer{
+	display:grid;
+	grid-template-columns: 1fr;
+	background-color: #858694;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	.Row{
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		margin-bottom:1px;
+	}
+}

@@ -1,0 +1,12 @@
+.Calculator{
+	&__Container{
+		margin:auto;
+		max-width:900px;
+		height:100vh;
+		background-color:#e0e0e0;
+		display:grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 25% 1fr;
+		position: relative;
+	}
+}
