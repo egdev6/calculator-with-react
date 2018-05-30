@@ -10,7 +10,7 @@ class ButtonContainer extends Component {
 		return (
 			<div className="ButtonContainer">
 				<div className="Row">
-					<Button value="AC" clickHandler={this.handleClick}/>
+					<Button value="CE" clickHandler={this.handleClick}/>
 					<Button value="C" clickHandler={this.handleClick}/>
 					<Button value="%" clickHandler={this.handleClick}/>
 					<Button value="÷" clickHandler={this.handleClick} operation/>

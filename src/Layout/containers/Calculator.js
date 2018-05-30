@@ -9,19 +9,19 @@ class Calculator extends Component{
 		super(props);
 		this.state = {
 			total: null,
-			next: null,
-			operation: false
+			next: false
 		}
 	}
 
-	handleClick = () => {
-		this.props.clickHandler;
-	}
+	handleClick = buttonValue => {
+    this.setState(Calculate(this.state, buttonValue));
+};
 
 	render(){
+    console.log(this.state);
 		return (
 			<div className="Calculator__Container">
-				<Result />
+				<Result value={this.state.total || "0"}/>
 				<ButtonContainer clickHandler={this.handleClick}/>
 			</div>
 		)

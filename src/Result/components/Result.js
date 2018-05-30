@@ -4,7 +4,7 @@ class Result extends Component{
 	render(){
 		return (
 			<div className="Result">
-				<div>0</div>
+				<div>{this.props.value}</div>
 			</div>
 		)
 	}
