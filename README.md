@@ -5,3 +5,12 @@ Calculator build in React.
 ## Webpack
 
 Demo: https://egdev6.github.io/calculator-with-react/. 
+
+---
+
+## License
+
+Distributed under the [MIT License][license].
+
+
+[license]: LICENSE
